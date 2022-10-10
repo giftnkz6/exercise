@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("background.jpg");
+    background-color: grey;
+    color:white;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    display: inline;
+    width: 100%;
+}
+
+header,.menu-list{
+    display: inline-flex;
+}
+.menu{
+    margin-left: auto; /* To place nav to the right */
+    align-self: center;
+}
+
+.logo-image{
+    width: 5em;
+}
+.menu-list{
+    list-style: none;
+    color: white;
+    background-color: red;
+    
+}
+.menu-list a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+}
+.menu-list a:hover{
+    background-color: blueviolet;
+    
+}
+.homes img{
+    width: 200vh;
+    height: 150vh;
+}
+h5{
+    color: yellow;
+}
+footer p{
+    font-weight: bold;
+}
+#about{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: azure;
+    width: 200px;
+    height: 180px;
+    border-radius: 100px / 50px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin:auto;
+}
